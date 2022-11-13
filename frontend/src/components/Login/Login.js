@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../../App.css";
 import axios from "axios";
 import { Authentication } from "../../services";
+import backendURL from "../../config";
 
 class Login extends Component {
   constructor(props) {
@@ -52,7 +53,7 @@ class Login extends Component {
       role: this.state.isAdmin ? "therapist" : "patient",
     };
     axios
-      .post("http://localhost:9000/login", requestBody)
+      .post(`${backendURL}/login`, requestBody)
       .then((response) => {
         if (response.status === 200) {
           const result = response.data;

@@ -1,3 +1,3 @@
-const backendURL = "http://localhost:3001";
+const backendURL = "https://powerful-sierra-68989.herokuapp.com";
 
 export default backendURL;

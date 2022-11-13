@@ -8,4 +8,5 @@ module.exports = {
     uri: process.env.MONGOURI,
     testURI: process.env.MONGOTESTURI,
   },
+  flask: process.env.FLASK_SERVER,
 };

@@ -20,6 +20,7 @@
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.1.1",
     "mongoose": "^6.5.5",
+    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.20",
     "passport": "^0.4.1",
     "passport-jwt": "^3.0.1"

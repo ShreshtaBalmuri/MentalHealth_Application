@@ -16,6 +16,7 @@ const dashboardRoutes = [
     component: UserProfile,
     layout: "/therapist",
   },
+  
 ];
 
 export default dashboardRoutes;

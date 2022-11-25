@@ -1,15 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
-import { Button, Card, Form, Container, Row, Col } from "react-bootstrap";
-import { Authentication } from "../../services/authentication";
-import axios from "axios";
-
-
-
-
- 
- 
+import { Card, Container, Row, Col } from "react-bootstrap";
 
 function Questionarie() {
 
